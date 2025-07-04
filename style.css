@@ -1047,3 +1047,16 @@ body {
 .btn-primary {
     text-decoration: none;
 }
+
+.certificate-content a{
+    text-decoration: none;    
+}
+.certificate-image img:hover{
+    object-fit: contain;
+    transform: scale(1.05);
+    transition: transform 1s ease-in-out;    
+}
+
+#aboutMeSubtitle{
+    max-width: 900px;
+}
