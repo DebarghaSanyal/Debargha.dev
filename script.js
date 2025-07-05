@@ -132,6 +132,13 @@ contactForm.addEventListener('submit', function (e) {
     submitBtn.disabled = true;
     
     setTimeout(() => {
+        // Re-enable the button before submitting
+        submitBtn.innerHTML = originalText;
+        submitBtn.disabled = false;
+
+        // Submit the form manually
+        contactForm.submit();
+        
         alert('Message sent successfully! I\'ll get back to you soon.');
         contactForm.reset();
         submitBtn.innerHTML = originalText;

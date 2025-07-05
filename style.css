@@ -803,6 +803,8 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 .footer-left p {
@@ -1066,4 +1068,10 @@ body {
 
 #aboutMeSubtitle{
     max-width: 900px;
+}
+
+.footer-left img{
+    width: 34px;
+    margin-right: 12px;
+    height: auto;    
 }
